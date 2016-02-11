@@ -1,5 +1,5 @@
-import createSkinnableElement from './lib/createSkinnableElement';
-import createSkinElement from './lib/createSkinElement';
+import createSkinnableComponent from './lib/createSkinnableComponent';
+import createSkinComponent from './lib/createSkinComponent';
 import createSkin from './lib/createSkin';
 
-export {createSkinnableElement, createSkinElement, createSkin};
+export {createSkinnableComponent, createSkinComponent, createSkin};
