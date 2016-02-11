@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jedwards1211/react-skin.git"
+    "url": "git+https://github.com/mindfront/react-skin.git"
   },
   "keywords": [
     "react",
@@ -18,9 +18,9 @@
   "author": "Andy Edwards",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jedwards1211/react-skin/issues"
+    "url": "https://github.com/mindfront/react-skin/issues"
   },
-  "homepage": "https://github.com/jedwards1211/react-skin#readme",
+  "homepage": "https://github.com/mindfront/react-skin#readme",
   "devDependencies": {
     "babel-cli": "^6.5.1",
     "babel-core": "^6.5.1",
