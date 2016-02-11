@@ -1,0 +1,33 @@
+{
+  "name": "react-skin",
+  "version": "1.0.0",
+  "description": "create skinnable React components with very little boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedwards1211/react-skin.git"
+  },
+  "keywords": [
+    "react",
+    "skin"
+  ],
+  "author": "Andy Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedwards1211/react-skin/issues"
+  },
+  "homepage": "https://github.com/jedwards1211/react-skin#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-eslint": "^4.1.8",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1"
+  }
+}
