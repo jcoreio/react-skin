@@ -1,6 +1,6 @@
 {
   "name": "react-skin",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0-beta4",
   "description": "create skinnable React components with very little boilerplate",
   "main": "dist/index.js",
   "scripts": {
@@ -29,10 +29,13 @@
     "babel-cli": "^6.5.1",
     "babel-core": "^6.5.1",
     "babel-eslint": "^4.1.8",
+    "babel-plugin-transform-react-constant-elements": "^6.5.0",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
+    "classnames": "^2.2.3",
     "eslint": "^1.10.3",
-    "eslint-plugin-react": "^3.16.1"
+    "eslint-plugin-react": "^3.16.1",
+    "react": "^0.14.7"
   }
 }
