@@ -82,6 +82,25 @@ If `props` contains a `component` prop, the `render` method will create an eleme
 If `props` contains a `className` prop, it will be merged with any `className` provided to the element
 using `classnames`.
 
+### createSkinDecorator
+```jsx
+function createSkinDecorator(decorators: {[key: string]: (Skin: any, props: Object, decorator: Component) => ReactElement}): any
+```
+
+Creates a Component that decorates skin components (via context injection).
+
+For example,
+```jsx
+let SkinDecorator = createSkinDecorator({
+  Title: (Title, props) => <Title {...props}>
+    <a href="..">Up</a>
+    {props.children}
+  </Title> 
+});
+```
+will inject a `TitleSkin` into its child context that adds an "Up" link to any <Title> rendered by the child.  The `Title`
+argument to the lambda is the `TitleSkin` from the decorator's own context.
+
 ## Advanced Example
 
 This example shows how skins can be nested to make Header, Title, Body, and Footer elements that respond differently
