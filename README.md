@@ -98,7 +98,7 @@ let SkinDecorator = createSkinDecorator({
   </Title> 
 });
 ```
-will inject a `TitleSkin` into its child context that adds an "Up" link to any <Title> rendered by the child.  The `Title`
+will inject a `TitleSkin` into its child context that adds an "Up" link to any `<Title>` rendered by the child.  The `Title`
 argument to the lambda is the `TitleSkin` from the decorator's own context.
 
 ## Advanced Example
