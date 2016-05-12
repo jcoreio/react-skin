@@ -37,5 +37,5 @@
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.16.1",
     "react": "^15.0.0"
-  },
+  }
 }
