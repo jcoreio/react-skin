@@ -32,7 +32,8 @@ export default function createSkinDecorator(decorators) {
       return this.decorators;
     }
     render() {
-      return this.props.children;
+      const {children, ...props} = this.props
+      return React.cloneElement(children, props);
     }
   };
 }
