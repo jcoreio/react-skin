@@ -25,14 +25,19 @@ export default function createSkinDecorator(decorators) {
       this.decorators = {};
       for (let componentName in decorators) {
         let skinName = componentName + 'Skin';
-        this.decorators[skinName] = props => decorators[componentName](this.context[skinName], props, this);
+        this.decorators[skinName] = props => decorators[componentName](
+          this.context[skinName], props, this.props.decoratorProps || {}
+        );
       }
     }
     getChildContext() {
       return this.decorators;
     }
     render() {
-      const {children, ...props} = this.props
+      const {children} = this.props
+      const props = {...this.props}
+      delete props.children
+      delete props.decoratorProps
       return children && React.cloneElement(children, props) || null
     }
   };

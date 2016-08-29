@@ -1,6 +1,6 @@
 {
   "name": "react-skin",
-  "version": "1.0.0-beta9",
+  "version": "2.0.0",
   "description": "create skinnable React components with very little boilerplate",
   "main": "dist/index.js",
   "scripts": {
