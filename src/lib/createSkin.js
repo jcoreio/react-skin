@@ -15,7 +15,7 @@ export default function createSkin(displayName, skinComponents, props = {}) {
   let childContextTypes = {};
   let childContext = {};
   for (let componentName in skinComponents) {
-    childContextTypes[componentName + 'Skin'] = () => PropTypes.any.isRequired;
+    childContextTypes[componentName + 'Skin'] = PropTypes.any.isRequired;
     childContext[componentName + 'Skin'] = skinComponents[componentName];
   }
   return class Skin extends Component {
